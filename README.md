@@ -56,7 +56,7 @@ Ensure you have the following configuration set up:
 2. Run the script:
 
     ```bash
-    python async_question_sender.py
+    python Socket_systematic_random_excel.py
     ```
 
 ---
