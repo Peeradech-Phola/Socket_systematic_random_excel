@@ -61,48 +61,6 @@ Ensure you have the following configuration set up:
 
 ---
 
-## 📚 API Endpoints
-
-### 1. Send Question
-
-- **Endpoint:** `/send_question`
-- **Method:** `POST`
-- **Request Body:**
-
-    ```json
-    {
-      "question": "Your question here",
-      "ref": "Reference ID"
-    }
-    ```
-
-- **Response:**
-
-    ```json
-    {
-      "status": "success",
-      "message": "Question sent successfully"
-    }
-    ```
-
----
-
-### 2. Get Status
-
-- **Endpoint:** `/status`
-- **Method:** `GET`
-- **Response:**
-
-    ```json
-    {
-      "status": "running",
-      "total_questions_sent": 100,
-      "total_cost": 5.00
-    }
-    ```
-
----
-
 ## 🛡 Logging
 
 All responses and errors are logged using the **logging** module. Check the log files for detailed information on the question sending process.
